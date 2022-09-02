@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------
+Header area styles Start
+--------------------------*/
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    background-color: #1e90ff0d;
+    padding-top: 50px;
+}
+
+.header-container {
+    margin-bottom: 130px;
+}
+
+.header-area {
+    background-color: #161616;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    width: 1321px;
+    height: 646px;
+    margin: 0 auto;
+}
+
+.header-left-area {
+    display: flex;
+    width: 531px;
+    height: 424px;
+    margin: 111px 24px 111px 106px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-left-area h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin: 0 0 20px 0;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-left-area-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 30px 0;
+    color: #FFFFFF;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    text-decoration: none;
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    font-family: 'HelveticaNeue';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.arrow {
+    width: 24px;
+    height: 24px;
+    margin-left: 2;
+}
+
+.header-right-area img {
+    width: 581px;
+    height: 613px;
+}
+
+/*------------------------
+Header area styles End
+--------------------------*/
+
+/* Main area styles start */
+
+.main-container {
+    display: flex;
+    width: 1321px;
+    margin: 0 auto 130px auto;
+}
+
+.main-sidebar {
+    width: 312px;
+    height: 312px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #161616;
+    border-radius: 10px;
+    row-gap: 30px;
+}
+
+.main-sidebar a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 252px;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    margin-left: 24px;
+}
+
+.match {
+    width: 312px;
+    height: 362px;
+    box-sizing: border-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.match img {
+    width: 310px;
+    height: 175px;
+    background: url(Egypt-Senegal-1024x683.jpg);
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.transfer-btn {
+    margin: 0px;
+}
+
+.transfer-btn a {
+    text-decoration: none;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 4px 16px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+    margin: 0 0 15px 20px;
+}
+
+.match-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+    margin: 15px 0 20px 20px;
+}
+
+.more-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 143px;
+    height: 26px;
+    margin: 0 0 20px 20px;
+}
+
+.more-details p {
+    margin: 0;
+    color: rgba(22, 22, 22, 0.7);
+    font-weight: 400;
+}
+
+.more-details-icon {
+    margin-right: 10px;
+}
+
+/* Main area styles end */
+
+/* footer area styles start */
+
+.footer-container {
+    width: 1600px;
+    height: 444px;
+    background: #161616;
+    margin: 0 auto;
+}
+
+.footer-top hr {
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-top h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 130px 0 50px 0;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    column-gap: 58px;
+    margin-top: 50px;
+}
+
+.footer-bottom li {
+    list-style: none;
+}
+
+.footer-bottom li a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* font-feature-settings: 'liga' off; */
+    color: #B9B9B9;
+}
+
+/* footer area styles end */
