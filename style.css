@@ -121,6 +121,16 @@ Header area styles End
     align-items: center;
 }
 
+.main-sidebar a.blog-activeBtn {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
+.main-sidebar a.upcoming-activeBtn {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
 .main-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -237,3 +247,52 @@ Header area styles End
 }
 
 /* footer area styles end */
+
+/* upcoming page styles */
+.vs-match {
+    width: 312px;
+    height: 242px;
+    box-sizing: border-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.vs-match-flag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 53px 30px 20px 30px;
+}
+
+.vs-match-flag,
+.vs {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #161616;
+}
+
+.vs-match-flag img {
+    width: 93.04px;
+    height: 56.18px;
+}
+
+.match-vs-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #161616;
+}
+
+.vs-match p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4D4D4D;
+}
