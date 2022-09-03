@@ -1,11 +1,8 @@
 /* Responsive for Mobile device start */
-.footer-container {
-    display: none;
-}
 
-@media screen and (max-width:688px) {
+@media only screen and (max-width:688px) {
     .container {
-        width: 688px;
+        width: 100%;
     }
 
     .header-container {
@@ -13,7 +10,7 @@
     }
 
     .header-area {
-        width: 650px;
+        width: 95%;
         height: auto;
         flex-direction: column;
     }
@@ -22,22 +19,30 @@
         margin: 28px 24px 0 24px;
         justify-content: center;
         align-items: center;
+        width: 95%;
+        height: auto;
     }
 
     .header-left-area h1 {
-        font-size: 56px;
-        line-height: 60px;
+        font-size: 40px;
+        line-height: 50px;
         text-align: center;
+        padding: 5px 20px 5px 20px;
     }
 
-    .header-left-area-des {
+    .header-left-area-desc {
         text-align: center;
+        padding: 5px 20px 5px 20px;
     }
 
     .btn {
         padding: 20px 40px;
         font-size: 30px;
         font-weight: 500;
+    }
+
+    .header-right-area {
+        margin-top: 20px;
     }
 
     .header-right-area img {
@@ -47,9 +52,10 @@
     }
 
     .main-container {
-        width: 650px;
+        width: 95%;
         flex-direction: column;
         align-items: center;
+        margin: 0 auto 70px auto;
 
     }
 
@@ -68,13 +74,33 @@
     }
 
     .match {
-        width: 650px;
+        width: 95%;
         height: auto;
     }
 
     .match img {
         width: 100%;
         height: auto;
+    }
+
+    .footer-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-top h2 {
+        padding: 50px 0 50px 0;
+        margin: 0;
+    }
+
+    .footer-bottom li {
+        margin-bottom: 38px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
