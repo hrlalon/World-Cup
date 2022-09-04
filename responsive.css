@@ -98,6 +98,10 @@
         margin-bottom: 38px;
     }
 
+    .footer-bottom li:last-child {
+        margin-bottom: 20px;
+    }
+
     .footer-top hr {
         width: 100%;
     }
@@ -108,6 +112,115 @@
         align-items: center;
     }
 
+    .social-media {
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-instagram {
+        color: #ffffff;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .fa-instagram {
+        margin: 0px;
+    }
+
 }
 
 /*Responsive for Mobile device end */
+
+/*Responsive for Tablet device start */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .header-container {
+        margin: 0 20px 70px 20px;
+    }
+
+    .header-area {
+        width: 100%;
+        height: auto;
+    }
+
+    .header-left-area {
+        width: 100%;
+        height: auto;
+        margin: 111px 24px 111px 50px;
+    }
+
+    .header-left-area h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .header-right-area img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .main-container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto 70px auto;
+    }
+
+    .main-sidebar {
+        width: 95%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 30px;
+        background: none;
+        margin: 0 24px 40px 24px;
+    }
+
+    .main-section {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 20px 0 24px;
+    }
+
+    .match {
+        width: 100%;
+        height: auto;
+    }
+
+    .match img {
+        width: 100%;
+        height: auto;
+    }
+
+    .view-all-btn {
+        display: block;
+    }
+
+    .footer-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-top h2 {
+        padding: 60px 0 24px 0;
+    }
+
+    .footer-top hr {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        flex-wrap: wrap;
+        margin: 50px 24px 0 24px;
+        row-gap: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/*Responsive for Tablet device end */

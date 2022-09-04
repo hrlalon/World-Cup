@@ -19,7 +19,7 @@ Header area styles Start
 }
 
 .header-area {
-    background-color: #161616;
+    background-color: #00407e;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -59,7 +59,7 @@ Header area styles Start
 
 .btn {
     text-decoration: none;
-    background: #DD0000;
+    background: tomato;
     border-radius: 5px;
     padding: 16px 25px;
     font-family: 'HelveticaNeue';
@@ -68,6 +68,11 @@ Header area styles Start
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.header-area:hover .header-right-area img {
+    transform: scale(0.90);
+    transition: transform 1s ease-in-out;
 }
 
 .arrow {
@@ -100,7 +105,7 @@ Header area styles End
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #161616;
+    background: #00407e;
     border-radius: 10px;
     row-gap: 30px;
 }
@@ -122,12 +127,12 @@ Header area styles End
 }
 
 .main-sidebar a.blog-activeBtn {
-    background-color: #DD0000;
+    background-color: tomato;
     color: #FFFFFF;
 }
 
 .main-sidebar a.upcoming-activeBtn {
-    background-color: #DD0000;
+    background-color: tomato;
     color: #FFFFFF;
 }
 
@@ -199,6 +204,11 @@ Header area styles End
     margin-right: 10px;
 }
 
+.view-all-btn {
+    display: none;
+    text-align: center;
+}
+
 /* Main area styles end */
 
 /* footer area styles start */
@@ -242,13 +252,16 @@ Header area styles End
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* font-feature-settings: 'liga' off; */
     color: #B9B9B9;
+}
+
+.social-media {
+    display: none;
 }
 
 /* footer area styles end */
 
-/* upcoming page styles */
+/* upcoming page styles start*/
 .vs-match {
     width: 312px;
     height: 242px;
@@ -296,3 +309,5 @@ Header area styles End
     text-align: center;
     color: #4D4D4D;
 }
+
+/* upcoming page styles end*/
